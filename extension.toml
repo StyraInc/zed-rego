@@ -1,5 +1,5 @@
 id = "rego"
-name = "Rego"
+name = "rego"
 version = "0.0.1"
 schema_version = 1
 authors = ["Your Name <you@example.com>"]
@@ -11,5 +11,5 @@ repository = "https://github.com/FallenAngel97/tree-sitter-rego"
 commit = "9ac75e71b2d791e0aadeef68098319d86a2a14cf"
 
 [language_servers.rego]
-name = "Rego"
-language = "Rego"
+name = "rego"
+language = "rego"
