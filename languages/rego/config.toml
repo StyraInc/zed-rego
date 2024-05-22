@@ -1,2 +1,10 @@
 name = "rego"
 grammar = "rego"
+path_suffixes = ["rego", "rq"]
+line_comments = ["#"]
+autoclose_before = "}])"
+brackets = [
+    { start = "{", end = "}", close = true, newline = true },
+    { start = "[", end = "]", close = true, newline = true },
+    { start = "(", end = ")", close = true, newline = false },
+]
