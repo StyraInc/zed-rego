@@ -1,10 +1,10 @@
 id = "rego"
-name = "rego"
+name = "Rego"
 version = "0.0.1"
 schema_version = 1
-authors = ["Your Name <you@example.com>"]
-description = "rego"
-repository = "https://github.com/your-name/my-zed-extension"
+authors = ["Styra Community <devrel@styra.com>"]
+description = "Zed extension for the Rego policy language"
+repository = "https://github.com/StyraInc/zed-rego"
 
 [grammars.rego]
 repository = "https://github.com/FallenAngel97/tree-sitter-rego"
