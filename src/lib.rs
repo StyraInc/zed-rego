@@ -36,7 +36,8 @@ impl Rego {
         )?;
 
         let version_dir = format!("rego-{}", release.version);
-        //let binary_path = format!("{version_dir}/bin/rego");
+        fs::create_dir_all(&version_dir).map_err(|e| format!("failed to create directory: {e}"))?;
+
         let (platform, arch) = zed::current_platform();
         let asset_name = format!(
             "regal_{os}_{arch}{extension}",
