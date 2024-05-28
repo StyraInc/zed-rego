@@ -10,7 +10,6 @@ Zed extension for Rego and [Open Policy Agent](https://github.com/open-policy-ag
 
 Basic features like syntax highlighting works well, with the following exceptions:
 
-- [ ] Keywords `package` and `import` seemingly not recognized as such
 - [ ] No automatic indentation in rule bodies, objects, etc
 
 ### Regal Language Server Support
@@ -25,8 +24,8 @@ functionality. The following features of the language server are currently suppo
 - [x] Document and workspace symbols (cmd+t to navigate to rules, functions, packages)
 - [x] Inlay hints (yes, but needs to be enabled in settings "Toggle inlay hints")
 - [x] Formatting
-- [ ] Code actions (see logs for errors)
-- [ ] Code completion (see logs for errors)
+- [x] Code actions
+- [x] Code completion
 
 ## Installation
 

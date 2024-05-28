@@ -1,10 +1,12 @@
 ; highlights.scm
 [
-  (import) 
+  (import)
   (package)
 ] @module
 
 [
+  (package)
+  (import)
   (with)
   (as)
   (every)
@@ -58,7 +60,7 @@
 
 (rule (rule_head (var) @attribute))
 
-(rule 
+(rule
   (rule_head (term (ref (var) @head-var)))
   (rule_body (query (literal (expr (expr_infix (expr (term (ref (var)) @output-var)))))) (#eq? @output-var @head-var))
 )
