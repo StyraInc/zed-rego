@@ -4,13 +4,12 @@ Zed extension for Rego and [Open Policy Agent](https://github.com/open-policy-ag
 
 **This is work in progress and not yet ready for general use.**
 
-## Status
+## Features
 
-### Basic Rego Support
+### Rego Syntax Support
 
-Basic features like syntax highlighting works well, with the following exceptions:
-
-- [ ] No automatic indentation in rule bodies, objects, etc
+Basic features like syntax highlighting and indentation works out of the box. More advanced features are provided by
+[Regal](https://github.com/styrainc/regal).
 
 ### Regal Language Server Support
 
@@ -27,7 +26,7 @@ functionality. The following features of the language server are currently suppo
 - [x] Code actions
 - [x] Code completion
 
-## Installation
+## Development
 
 To install the extension in development mode, first make sure to have [Rust](https://www.rust-lang.org/tools/install) installed.
 
