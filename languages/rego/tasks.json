@@ -1,0 +1,13 @@
+[
+  {
+    "label": "opa test (workspace)",
+    "command": "opa",
+    "args": ["test", "--verbose", "--bundle", "$ZED_WORKTREE_ROOT"]
+  },
+  {
+    "label": "opa test ($ZED_SYMBOL)",
+    "command": "opa",
+    "args": ["test", "--verbose", "--bundle", "--run", "$ZED_SYMBOL", "$ZED_WORKTREE_ROOT"],
+    "tags": ["rego-test"]
+  }
+]
