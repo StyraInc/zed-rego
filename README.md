@@ -37,3 +37,8 @@ directory where you cloned this repository.
 
 - https://github.com/FallenAngel97/tree-sitter-rego
 - https://github.com/StyraInc/regal
+
+## Community
+
+For questions, discussions and announcements related to Styra products, services and open source projects, please join
+the Styra community on [Slack](https://communityinviter.com/apps/styracommunity/signup)!
