@@ -2,6 +2,8 @@
 
 Zed extension for Rego and [Open Policy Agent](https://github.com/open-policy-agent/opa/) (OPA).
 
+![usage of the extension](./docs/usage.gif)
+
 **This is work in progress and not yet ready for general use.**
 
 ## Features
