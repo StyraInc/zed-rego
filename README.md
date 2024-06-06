@@ -10,12 +10,12 @@ Zed extension for Rego and [Open Policy Agent](https://github.com/open-policy-ag
 
 ### Rego Syntax Support
 
-Basic features like syntax highlighting and indentation works out of the box. More advanced features are provided by
-[Regal](https://github.com/styrainc/regal).
+Basic features like syntax highlighting and indentation works out of the box. More advanced features are provided
+by [Regal](https://github.com/styrainc/regal).
 
 ### Regal Language Server Support
 
-This extension uses the [Regal](https://github.com/styrainc/regal) language server for Rego to provide most of its
+This extension uses the Regal language server for Rego to provide most of its
 functionality. The following features of the language server are currently supported:
 
 - [x] Diagnostics (yes, **but does not show links to docs**)
@@ -72,15 +72,12 @@ the task execution context.
 
 ## Development
 
-To install the extension in development mode, first make sure to have [Rust](https://www.rust-lang.org/tools/install) installed.
+See the docs on [contributing](docs/CONTRIBUTING.md) if you're interested in hacking on this extension.
 
-Next, clone this repository. Now from the Zed "Extensions" menu, choose "Install Dev Extension" and select the
-directory where you cloned this repository.
+## Credits
 
-## Depends on
-
-- https://github.com/FallenAngel97/tree-sitter-rego
-- https://github.com/StyraInc/regal
+- Tree-sitter grammar provided by the [tree-sitter-rego](https://github.com/FallenAngel97/tree-sitter-rego) project
+- Language server for Rego provided by [Regal](https://github.com/StyraInc/regal)
 
 ## Community
 
