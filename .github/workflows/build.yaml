@@ -12,9 +12,30 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  markdownlint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - run: npm install -g markdownlint-cli
       - run: markdownlint --config docs/.markdownlint.yaml --ignore docs/CODE_OF_CONDUCT.md README.md docs/
+  clippy_check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: dtolnay/rust-toolchain@master
+        with:
+          components: clippy
+          toolchain: stable
+      - run: cargo +stable clippy -- -D warnings
+  build_extension:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1  
+      - uses: dtolnay/rust-toolchain@master
+        with:
+          # This should be changed to wasm32-wasip2 when available
+          # explanation: https://github.com/zed-industries/zed/blob/main/crates/extension/src/extension_builder.rs#L21-L26
+          targets: wasm32-wasip1
+          toolchain: stable
+      - run: cargo build --target wasm32-wasip1 --release
+  
