@@ -1,10 +1,10 @@
-# zed-rego
+# Zed Rego Extension
 
-Zed extension for Rego and [Open Policy Agent](https://github.com/open-policy-agent/opa/) (OPA).
+[![Build Status](https://github.com/styrainc/zed-rego/workflows/Build/badge.svg?branch=main)](https://github.com/styrainc/zed-rego/actions)
+
+Zed extension for the Rego policy language from [Open Policy Agent](https://github.com/open-policy-agent/opa/) (OPA).
 
 ![usage of the extension](./docs/usage.gif)
-
-**This is work in progress and not yet ready for general use.**
 
 ## Features
 
@@ -27,6 +27,21 @@ functionality. The following features of the language server are currently suppo
 - [x] Formatting
 - [x] Code actions
 - [x] Code completion
+
+## Installation
+
+This extension is available in the Zed extension marketplace, and you'll find it by searching for "rego" in the
+extensions view.
+
+Since the extension makes use of [Regal](https://github.com/styrainc/regal) for language server features, the extension
+will automatically try to download the latest version of Regal to use, unless the `regal` binary is found on `$PATH`.
+
+If you want to have updates of Regal managed automatically, you can use Homebrew to install the `regal` binary instead
+(MacOS & Linux):
+
+```shell
+brew install styrainc/packages/regal
+```
 
 ## Tasks
 
