@@ -23,7 +23,7 @@ impl Rego {
         }
 
         zed::set_language_server_installation_status(
-            &language_server_id,
+            language_server_id,
             &zed::LanguageServerInstallationStatus::CheckingForUpdate,
         );
 
@@ -61,7 +61,7 @@ impl Rego {
 
         if !fs::metadata(&binary_path).map_or(false, |stat| stat.is_file()) {
             zed::set_language_server_installation_status(
-                &language_server_id,
+                language_server_id,
                 &zed::LanguageServerInstallationStatus::Downloading,
             );
     
