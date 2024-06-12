@@ -1,6 +1,6 @@
 # Zed Rego Extension
 
-[![Build Status](https://github.com/styrainc/zed-rego/workflows/Build/badge.svg?branch=main)](https://github.com/styrainc/zed-rego/actions)
+[![Build Status](https://github.com/styrainc/zed-rego/workflows/Build/badge.svg)](https://github.com/styrainc/zed-rego/actions)
 
 Zed extension for the Rego policy language from [Open Policy Agent](https://github.com/open-policy-agent/opa/) (OPA).
 
@@ -18,12 +18,12 @@ by [Regal](https://github.com/styrainc/regal).
 This extension uses the Regal language server for Rego to provide most of its
 functionality. The following features of the language server are currently supported:
 
-- [x] Diagnostics (yes, **but does not show links to docs**)
+- [x] Diagnostics (linting)
 - [x] Hover (inline docs on built-in functions)
 - [x] Go to definition (cmd + click on a reference to go to definition)
 - [x] Folding ranges (expand/collapse blocks, imports, comments)
 - [x] Document and workspace symbols (cmd+t to navigate to rules, functions, packages)
-- [x] Inlay hints (yes, but needs to be enabled in settings "Toggle inlay hints")
+- [x] Inlay hints (but may need to be enabled in settings "Toggle inlay hints")
 - [x] Formatting
 - [x] Code actions
 - [x] Code completion
