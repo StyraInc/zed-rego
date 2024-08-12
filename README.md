@@ -6,6 +6,11 @@ Zed extension for the Rego policy language from [Open Policy Agent](https://gith
 
 ![usage of the extension](./docs/usage.gif)
 
+See the blog
+[introducing the zed-rego extension](https://www.styra.com/blog/introducing-the-rego-extension-for-the-zed-editor/)
+if you want to learn more about the background and motivation for this extension, as well as a detailed overview of its
+features.
+
 ## Features
 
 ### Rego Syntax Support
@@ -27,6 +32,10 @@ functionality. The following features of the language server are currently suppo
 - [x] Formatting
 - [x] Code actions
 - [x] Code completion
+- [ ] Code lenses (click to evaluate package or rule) - not yet supported by Zed
+
+To learn more about each language server feature provided, see the
+Regal [language server](https://docs.styra.com/regal/language-server) documentation.
 
 ## Installation
 
