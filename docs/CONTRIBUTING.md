@@ -27,4 +27,4 @@ features and fixes should be submitted to that project directly. See the Regal d
 ## Community
 
 Finally, if you're interested in discussing a feature, bug, or just development in general, please join us in the
-Styra community on [Slack](https://communityinviter.com/apps/styracommunity/signup)!
+Styra community on [Slack](https://inviter.co/styra)!

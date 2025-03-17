@@ -6,5 +6,5 @@ contributing](https://github.com/StyraInc/zed-rego/blob/main/docs/CONTRIBUTING.m
 not made clear enough, that's a bug, and we'd appreciate hearing about it!
 
 If you want to ask questions before submitting your PR, or want to discuss this extension in general, please feel free to join
-us in the [Styra Community Slack](https://communityinviter.com/apps/styracommunity/signup).
+us in the [Styra Community Slack](https://inviter.co/styra).
 -->
