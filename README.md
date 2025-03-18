@@ -106,4 +106,4 @@ See the docs on [contributing](docs/CONTRIBUTING.md) if you're interested in hac
 ## Community
 
 For questions, discussions and announcements related to Styra products, services and open source projects, please join
-the Styra community on [Slack](https://communityinviter.com/apps/styracommunity/signup)!
+the Styra community on [Slack](https://inviter.co/styra)!
